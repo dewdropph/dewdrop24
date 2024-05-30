@@ -109,5 +109,5 @@ nav ul li a{
     transition: transform 0.2s ease-in-out;
 }
 .text2 a:hover{
-    background-color: transparent;
+    background-color: none;
 }
