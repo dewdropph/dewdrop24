@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>place-order-page</title>
+    <link rel="stylesheet" href="fourthPage/fourthPage.css">
+</head>
+<body>
+    <nav>
+        <label class="logo">
+            <a href="index.html">
+            <img class="icon" src="Navigation/foodie1.png">
+            DewDrop
+            </a>
+        </label>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="SecondPage.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <form class="mainbox">
+        <!-- <span class="close">&times;</span> -->
+
+        <h2>Payment</h2>
+
+        <div class="container">
+            <label for="username" class="username">Name:</label>
+            <input type="text" id="username" name="username" required>
+            <small id="usernameHelp">Enter your Name</small>
+        </div>
+
+        <div class="container">
+            <label for="location" class="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+            <small id="locationHelp">Enter your location</small>
+        </div>
+
+        <div class="radioBtn">
+            <p class="radioTxt">Choose Drinks Size:</p>
+    
+            <label for="size" class="size">
+                <input type="radio" id="size1" name="drinkSize"  class="size" required>16oz
+            </label>
+    
+            <label for="size" class="size">
+                <input type="radio" id="size1" name="drinkSize"  class="size" required> 22oz
+            </label>
+        </div>
+
+        <div class="selection-dessert">
+            <label for="menu1">Choose Desserts:</label>
+            <select name="Dessert" id="Dessert">
+                <option value="option1">None</option>
+                <option value="option2">Strawberry Sundae</option>
+                <option value="option3">Heather Sundae</option>
+                <option value="option4">Banana Sundae</option>
+                <option value="option5">Fudge Brownie Sundae</option>
+                <option value="option6">Mint Chocalate Sundae</option>
+            </select>
+        </div>
+
+        <div class="selection-drinks">
+            <label for="menu2">Choose Beverages:</label>
+            <select name="drinks" id="drinks">
+                <option value="option1">None</option>
+                <option value="option2">Sweet Tea Lemonade</option>
+                <option value="option3">Lemonade</option>
+                <option value="option4">Cherry Berry Tea</option>
+                <option value="option5">Iced Tea Sweetened</option>
+                <option value="option6">Iced Matcha Tea</option>
+            </select>
+        </div>
+
+        <div class="selection-appetite">
+            <label for="menu2">Choose Snacks & Treats:</label>
+            <select name="appetite" id="appetite">
+                <option value="option1">None</option>
+                <option value="option2">Muffle</option>
+                <option value="option3">Muffin</option>
+                <option value="option4">Doughnut</option>
+                <option value="option5">Croasant</option>
+                <option value="option6">Cookie</option>
+            </select>
+        </div>
+        <button type="submit" id="submitButton"  disabled><i>Place Order</i></button>
+    </form>
+    <script src="fourthPage/fourthPage.js"></script>
+</body>
+</html>
